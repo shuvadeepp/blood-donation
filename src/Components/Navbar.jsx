@@ -15,13 +15,13 @@ const Navbar = () => {
           <Link to="/" className="text-white hover:text-red-500 transition duration-300">
             Home
           </Link>
-          <Link to="/form" className="text-white hover:text-red-500 transition duration-300">
+          <Link to="/Form" className="text-white hover:text-red-500 transition duration-300">
             Donor
           </Link>
-          <Link to="/aboutus" className="text-white hover:text-red-500 transition duration-300">
+          <Link to="/AboutUs" className="text-white hover:text-red-500 transition duration-300">
             About Us
           </Link>
-          <Link to="/lists" className="text-white hover:text-red-500 transition duration-300">
+          <Link to="/Lists" className="text-white hover:text-red-500 transition duration-300">
             Lists
           </Link>
         </div>

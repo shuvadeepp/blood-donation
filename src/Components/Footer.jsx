@@ -14,17 +14,17 @@ export default function Footer(){
                     </Link>
                 </li>
                 <li>
-                    <Link to="/form" className="hover:underline me-4 md:me-6">
+                    <Link to="/Form" className="hover:underline me-4 md:me-6">
                         Donor
                     </Link>
                 </li>
                 <li>
-                    <Link to="/aboutus" className="hover:underline me-4 md:me-6">
+                    <Link to="/AboutUs" className="hover:underline me-4 md:me-6">
                         About Us
                     </Link>
                 </li>
                 <li>
-                    <Link to="/lists" className="hover:underline me-4 md:me-6">
+                    <Link to="/Lists" className="hover:underline me-4 md:me-6">
                         Lists
                     </Link>
                 </li>

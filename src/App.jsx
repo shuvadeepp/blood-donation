@@ -5,7 +5,7 @@ import Footer from "./Components/Footer.jsx";
 import { DonorProvider } from "./context/DonorContext"; 
 
 const Home     = lazy(() => import('./Components/HomeComponent/Home.jsx'));
-const Aboutus  = lazy(() => import('./Components/AboutusComponent/Aboutus.jsx'));
+const AboutUs  = lazy(() => import('./Components/AboutUsComponent/AboutUs.jsx'));
 const DonateRegisterPage  = lazy(() => import('./Components/DonateRegisterComponent/DonateRegisterPage.jsx'));
 const ErrorPage  = lazy(() => import('./Components/errorpage/404.jsx'));
 const DonorList  = lazy(() => import('./Components/DonorsLists/DonorList.jsx'));
@@ -29,8 +29,8 @@ function App() {
           <PageLoader>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/form" element={<DonateRegisterPage />} />
-              <Route path="/aboutus" element={<Aboutus />} />
+              <Route path="/Form" element={<DonateRegisterPage />} />
+              <Route path="/AboutUs" element={<AboutUs />} />
               <Route path="/Lists" element={<DonorList />} />
               <Route path="*" element={<ErrorPage/> } />
             </Routes>
